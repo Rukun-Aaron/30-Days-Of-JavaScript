@@ -1,7 +1,4 @@
-console.table({firstName: typeof(firstName),lastName: typeof(lastName),country: typeof(country), city: typeof(city), 
-age: typeof(age), isMarried: typeof(isMarried)});
-
-
+console.log(city)
 let w;
 let x;
 let y
@@ -20,3 +17,6 @@ let yourAge = 24;
 
 console.log(`I am ${myAge} years old.
 You are ${yourAge} years old.`);
+console.table({myFirstName: typeof(myFirstName),myLastName: typeof(myLastName),myCountry: typeof(myCountry), city: typeof(city), 
+    age: typeof(age), isMarried: typeof(isMarried)});
+    

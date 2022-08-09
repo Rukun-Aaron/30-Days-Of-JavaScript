@@ -2,9 +2,9 @@
 let string = 'love'
 let patternOne = /love/ // with out any flag
 let patternTwo = /love/gi // g-means to search in the whole text, i - case insensitive
-string.match(substring)
-let string = 'I love JavaScript. If you do not love JavaScript what else can you love.'
-console.log(string.match('love')) //
+console.log(string.match(patternOne));
+let string1 = 'I love JavaScript. If you do not love JavaScript what else can you love.'
+console.log(string1.match(patternTwo)) //
 /*
 output
 
